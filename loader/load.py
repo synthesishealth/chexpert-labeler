@@ -9,19 +9,21 @@ from constants import *
 
 class Loader(object):
     """Report impression loader."""
-    def __init__(self, reports_path, extract_impression=False):
+    def __init__(self, reports_path, df, extract_impression=False):
         self.reports_path = reports_path
         self.extract_impression = extract_impression
         self.punctuation_spacer = str.maketrans({key: f"{key} "
                                                  for key in ".,"})
         self.splitter = ssplit.NegBioSSplitter(newline=False)
-
+        self.df = df
     def load(self):
         """Load and clean the reports."""
         collection = bioc.BioCCollection()
-        reports = pd.read_csv(self.reports_path,
-                              header=None,
-                              names=[REPORTS])[REPORTS].tolist()
+        df = self.df # pd.read_csv(self.reports_path)
+        reports = df.report.values.tolist()
+        path = df.path.values.tolist()
+        ml_predictions = df.ml_predictions.values.tolist()
+        org_report  = df.org_report
 
         for i, report in enumerate(reports):
             clean_report = self.clean(report)
@@ -41,7 +43,9 @@ class Loader(object):
 
         self.reports = reports
         self.collection = collection
-
+        self.path = path
+        self.ml_predictions = ml_predictions
+        self.org_report = org_report
     def extract_impression_from_passages(self, document):
         """Extract the Impression section from a Bioc Document."""
         impression_passages = []

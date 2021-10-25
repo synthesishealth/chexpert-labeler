@@ -94,7 +94,7 @@ class Classifier(object):
         documents = collection.documents
         if self.verbose:
             print("Classifying mentions...")
-            documents = tqdm(documents)
+        documents = tqdm(documents)
         for document in documents:
             # Parse the impression text in place.
             self.parser.parse_doc(document)

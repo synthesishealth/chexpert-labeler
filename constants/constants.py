@@ -10,10 +10,18 @@ ENLARGED_CARDIOMEDIASTINUM = "Enlarged Cardiomediastinum"
 SUPPORT_DEVICES = "Support Devices"
 NO_FINDING = "No Finding"
 OBSERVATION = "observation"
-CATEGORIES = ["No Finding", "Enlarged Cardiomediastinum", "Cardiomegaly",
-              "Lung Lesion", "Lung Opacity", "Edema", "Consolidation",
-              "Pneumonia", "Atelectasis", "Pneumothorax", "Pleural Effusion",
-              "Pleural Other", "Fracture", "Support Devices"]
+CATEGORIES = ["No_finding",
+              "Atelectasis",
+              "Consolidation",
+              "Emphysema",
+              "Linear Scar or Fibrotatic Bands",
+              "Lung Cavity",
+              "Lung Cyst",
+              "Nodule Mass",
+              "Pleural Effusion",
+              "Pleural Thickening",
+              "Pulmonary Edema",
+              "Undifferentiated Lung Opacity"]
 
 # Numeric constants
 POSITIVE = 1
