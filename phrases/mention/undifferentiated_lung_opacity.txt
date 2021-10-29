@@ -1,18 +1,17 @@
-opaci
 decreased translucency
 increased density
-airspace disease
-air-space disease
-air space disease
+added density
 infiltrate
 infiltration
 interstitial marking
 interstitial pattern
 interstitial lung
-reticular pattern
-reticular marking
-reticulation
-parenchymal scarring
-peribronchial thickening
-wall thickening
-scar
+infiltrates
+ill-defined
+haziness
+pulmonary contusion
+pneumonitis
+aspiration pneumonia
+aspiration pneumonitis
+nonspecific opacity
+ground-glass

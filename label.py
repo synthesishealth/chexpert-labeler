@@ -77,3 +77,14 @@ if __name__ == "__main__":
 
     merged_df.reset_index(drop=True, inplace=True)
     merged_df.to_csv(output_file, index=False)
+
+    # print label distribution
+    print(f"{'label':>40}\t{'Normal':>10}\t{'Abnormal':>10}\t{'Uncertain':>10}\t{'Unknown':>10}")
+    print("-"*100)
+    for label_name in CATEGORIES:
+        col = merged_df[label_name].values.tolist()
+        no_0 = col.count(0)
+        no_1 = col.count(1)
+        no_minus_1 = col.count(-1)
+        no_none = len(col) - (no_0 + no_1+no_minus_1)
+        print(f"{label_name:>40}\t{no_0:>10}\t{no_1:>10}\t{no_minus_1:>10}\t{no_none:>10}")

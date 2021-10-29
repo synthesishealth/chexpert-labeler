@@ -31,12 +31,8 @@ def clean_mimic(report):
 
 NLP_csv = pd.read_csv(nlp_csv_file, usecols=['path', 'report', 'ml_predictions'])
 NLP_csv = NLP_csv.rename(columns={"report": "org_report"})
-NLP_csv["report"] = None
 
-for i, row in tqdm(NLP_csv.iterrows()):
-    org_report = row["org_report"]
-    finding = clean_mimic(org_report)
-    NLP_csv.at[i, 'report'] = finding
+NLP_csv["report"] = NLP_csv.apply(lambda row: clean_mimic(row["org_report"]), axis=1)
 
 NLP_csv = NLP_csv[['path', 'org_report', 'report', 'ml_predictions']]
 
