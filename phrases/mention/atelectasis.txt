@@ -1,2 +1,19 @@
 atelecta
 collapse
+basal atelectasis
+subsegmental atelectasis
+linear atelectasis
+plate atelectasis
+discoid atelectasis
+band atelectasis
+atelectatic change
+bronchovascular crowding
+hilar displacement
+lobar collapse
+lobar atelectasis
+volume loss
+rounded atelectasis
+curvilinear atelectasis
+plate-like atelectasis
+elevation of the hilum
+hilar elevation

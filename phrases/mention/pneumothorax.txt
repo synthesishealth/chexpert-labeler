@@ -1,2 +1,9 @@
 pneumothorax
 pneumothoraces
+tension pneumothorax
+absence of lung markings
+absence of lung vessels
+absence of vasculature
+visible visceral pleural edge
+radiolucent peripheral space
+pleural line

@@ -1,1 +1,26 @@
 consolidat
+airspace density
+airspace densities
+air bronchograms
+confluent airspace disease
+focal consolidation
+pneumonia
+pulmonary nodular amyloidosis
+airspace opacification
+lobar consolidation
+right upper lobe consolidation
+right middle lobe consolidation
+right lower lobe consolidation
+left upper lobe consolidation
+left lower lobe consolidation
+focal airspace opacity
+opacity and air bronchograms
+infiltrate with air bronchograms
+airspace disease
+air-space disease
+air space disease
+opacity with air bronchograms
+ill-defined opacification
+poorly-defined opacity
+poorly-defined opacification
+ill-defined opacity

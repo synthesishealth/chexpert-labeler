@@ -1,11 +1,9 @@
-emphysema
 blunt
 density
 elevation
 eventration
 scoliosis
 degenera
-calcifi
 hyperinflation
 bronchospasm
 asthma

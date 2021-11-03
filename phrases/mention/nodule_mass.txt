@@ -1,0 +1,24 @@
+mass
+nodular density
+nodular densities
+nodular opacity
+nodular opacities
+nodular opacification
+nodule
+lump
+carcinoma
+neoplasm
+tumor
+calcified nodul
+calcified nodule
+calcified granuloma
+calcified mass
+granuloma
+hamartoma
+pulmonary nodule
+miliary opacity
+pulmonary mass
+lung metastasis
+pulmonary metastasis
+subpleural nodules
+neoplastic lesion
